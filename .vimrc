@@ -216,3 +216,8 @@ au BufRead,BufNewFile *.{txt,text} set filetype=markdown
 
 " カーソルの回り込み
 set whichwrap=b,s,[,],<,>
+" buffer setting
+nmap <silent> <C-n>      :update<CR>:bn<CR>
+imap <silent> <C-n> <ESC>:update<CR>:bn<CR>
+vmap <silent> <C-n> <ESC>:update<CR>:bn<CR>
+cmap <silent> <C-n> <ESC>:update<CR>:bn<CR>
