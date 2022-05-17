@@ -4,7 +4,7 @@
 
 ```
 $ cd ~
-$ git clone https://github.com/{username}/dotfiles
+$ git clone https://github.com/ganejah/dotfiles
 $ cd dotfiles
 $ bash ./install.sh
 ```
